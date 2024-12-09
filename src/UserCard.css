@@ -1,0 +1,12 @@
+.userCardBody {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+#name {
+  font-size: larger;
+}
+#position {
+  line-height: 15px;
+  font-size: small;
+}

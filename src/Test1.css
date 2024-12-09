@@ -1,0 +1,26 @@
+.testimonialBody {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #682424;
+  position: relative;
+}
+.testimonialBody::after {
+  content: "▼";
+  color: #682424;
+  position: absolute;
+  top: 94%;
+  left: 10%;
+  transform: scale(1.4, 1);
+}
+#rating {
+  margin-top: 20px;
+}
+@media (prefers-color-scheme: light) {
+  .testimonialBody {
+    color: white;
+  }
+}
