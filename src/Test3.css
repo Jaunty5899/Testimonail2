@@ -1,3 +1,6 @@
+#test3.testimonialBody {
+  padding-top: 0;
+}
 #test3.testimonialBody::after {
   content: "";
 }
