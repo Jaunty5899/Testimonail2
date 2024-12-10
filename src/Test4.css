@@ -1,0 +1,14 @@
+#test4.testimonialBody {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#test4.testimonialBody::after {
+  content: "";
+}
+.swipeList {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
