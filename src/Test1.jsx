@@ -1,16 +1,16 @@
 import "./Test1.css";
 import UserCard from "./UserCard";
 
-function Test1({ Name, Position, Rating, Review }) {
+function Test1({ name, position, rating, review }) {
   return (
     <div>
       <div id="test1" className="testimonialBody">
-        <span id="review">{Review}</span>
+        <span id="review">{review}</span>
         <span id="rating">
-          {Rating > 3 ? "Highly Recommended" : "Recommended"}
+          {rating > 3 ? "Highly Recommended" : "Recommended"}
         </span>
       </div>
-      <UserCard Name={Name} Position={Position} />
+      <UserCard Name={name} Position={position} />
     </div>
   );
 }
