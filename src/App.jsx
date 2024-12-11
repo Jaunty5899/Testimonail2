@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState } from "react";
 import Test1 from "./Test1";
 import Test2 from "./Test2";
 import Test3 from "./Test3";
@@ -35,7 +36,12 @@ const data = [
   },
 ];
 
+function setRandom() {
+  return Math.floor(Math.random() * 4);
+}
+
 function App() {
+  const [user, setUser] = useState("");
   return (
     <div className="container">
       <Test1 {...data[0]} />
