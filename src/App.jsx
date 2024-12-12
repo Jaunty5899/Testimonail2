@@ -47,7 +47,7 @@ function App() {
       <Test1 {...data[0]} />
       <Test2 {...data[1]} />
       <Test3 {...data[2]} />
-      <Test4 {...data[3]} />
+      <Test4 {...data} />
     </div>
   );
 }
